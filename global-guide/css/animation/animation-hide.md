@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [当 隐藏元素后，CSS 动画将不会执行](#当-隐藏元素后，css-动画将不会执行)
+  - [测试用例](#测试用例)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 当 隐藏元素后，CSS 动画将不会执行
 
 ### 测试用例

@@ -5,9 +5,6 @@
 - [命名空间原则](#命名空间原则)
 - [命名空间列表举例](#命名空间列表举例)
   - [global](#global)
-  - [socialbase](#socialbase)
-  - [socialbase mobile](#socialbase-mobile)
-  - [ns](#ns)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
