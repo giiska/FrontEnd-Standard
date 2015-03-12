@@ -32,6 +32,7 @@
 ## 代码规范
 
 ##### js
+- https://github.com/felixge/node-style-guide
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 - http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
 
