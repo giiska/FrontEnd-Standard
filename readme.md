@@ -16,11 +16,6 @@
 ## 重要
 请参考[global-guide/前端项目可维护性原则.md](global-guide/前端项目可维护性原则.md)
 
-##目录结构
-
- - `global/` 各种 js/html/css 全局规范
- - `apps/` 各项目及子项目的特殊规范
- - `components/` 各种组件规范
 
 ## 细节规范
   - 文件名如无特殊必要，须使用小写
