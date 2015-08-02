@@ -15,7 +15,7 @@
 
 ## 机制
 使用 require 来管理扩展的层次性，保证下层的会覆盖上层的扩展。
-如 `ns/extend/backbone.js` 覆盖 `common/extend/backbone.js` 对 backbone 的扩展。
+如在下层应用中使用 `ns/extend/backbone.js` 覆盖顶层的 `common/extend/backbone.js` 对 backbone 的扩展。
 
 ## 扩展方法
 
@@ -47,7 +47,7 @@ define(['common/extend/backbone'], function () {
 });
 ```
 
-*注意 `common/extend/backbone` 可以简写成 `extend/backbone`
+*注意 `common/extend/backbone` 可以简写成 `common/extend/backbone`
 
 
 ### 在某个应用范围内扩展某个类库
@@ -56,8 +56,8 @@ define(['common/extend/backbone'], function () {
 代码如下：
 
 ```javascript
-// 由于在全局范围有 extend/backbone，所以此处要加载全局的 extend
-define(['extend/backbone'], function () {
+// 由于在全局范围有 common/extend/backbone，所以此处要加载全局的 extend
+define(['common/extend/backbone'], function () {
   "use strict";
 
   return Backbone
