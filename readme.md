@@ -27,6 +27,7 @@
 ## 代码规范
 
 ##### js
+- https://github.com/airbnb/javascript#table-of-contents 包含 es5, es6 东西
 - https://github.com/felixge/node-style-guide
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 - http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
