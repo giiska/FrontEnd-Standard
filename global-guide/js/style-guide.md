@@ -18,7 +18,6 @@
     如：
 
 ```javascript
-  // 以下这种风格容易排乱，不推荐！
   var variable = xxx;
   var variable2 = xxx;
   var func1 = function() {
