@@ -26,13 +26,18 @@
 ```
 
 ```javascript
-  // 以下这种风格容易排乱，不推荐！
+  // 以下两种风格容易排乱，不推荐！
   var variable = xxx
     , variable2 = xxx
     , func1 = function() {
         // something
       }
     ;
+  var variable = xxx,
+      variable2 = xxx,
+      func1 = function() {
+        // something
+      };
 ```
 
 ## 串连多个回调事件
