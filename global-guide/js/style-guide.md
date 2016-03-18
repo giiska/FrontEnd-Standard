@@ -14,10 +14,20 @@
 
 ## 竖排声明多个变量
 
-  - 声明多个变量的时候，逗号（`,`）在前面，逗号（`,`）与变量名之间一个空格，变量名要左对齐
+  - 声明多个变量的时候，建议一行一次 var 赋值。原因：后期 gulp 等打包时会自动合并 var 赋值，编码代码不要做压缩代码的事！
     如：
 
 ```javascript
+  // 以下这种风格容易排乱，不推荐！
+  var variable = xxx;
+  var variable2 = xxx;
+  var func1 = function() {
+    // something
+  }
+```
+
+```javascript
+  // 以下这种风格容易排乱，不推荐！
   var variable = xxx
     , variable2 = xxx
     , func1 = function() {
