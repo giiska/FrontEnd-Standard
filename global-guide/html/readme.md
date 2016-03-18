@@ -22,15 +22,7 @@
  * 所有标签需要符合 XHTML 标准闭合 ``<br />`` ``<hr />`` ``<img />`` 等标签注意以斜杠结尾，注意其中的空格
  * 避免使用style="xxx:xxx;"的内联样式表，可以在 html 中使用<style type="text/css"></style>加入
  * HTML[符号使用参考HTML](http://www.w3school.com.cn/tags/html_ref_entities.html)符号实体
- * ``<a>`` 标签添加外链时使用 ``rel="external"`` 请参考以下代码
 
-   ```
-    // 外接添加 _blank
-    $("a[href*='http://']:not([href*='" + location.hostname + "']),
-       [href*='https://']:not([href*='" + location.hostname + "']),
-       a[rel='external'],
-       a[rel='external nofollow']").attr("target", "_blank");
-   ```
 
 ## DOM 元素(js 选择器)
 
