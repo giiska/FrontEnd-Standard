@@ -1,3 +1,5 @@
+# 现在 react jsx、vue 组件单文件等导致代码风格异常混乱，本 repo 不再有参考价值
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
